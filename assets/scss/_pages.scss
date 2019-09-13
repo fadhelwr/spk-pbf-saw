@@ -1,0 +1,50 @@
+/* ============
+   PROFILE
+   ============ */
+
+.profile-header {
+  padding: 20px 0;
+}
+
+/* ============
+   Account pages
+   ============ */
+.wrapper-page {
+  margin: 7% auto;
+  position: relative;
+  max-width: 520px;
+
+  .card-box {
+    padding: 30px;
+    border-radius: 9px;
+    border-color: rgba($dark,0.3);
+  }
+}
+.account-pages .account-content {
+  padding: 30px;
+}
+.account-pages .account-btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.expired-title {
+  font-weight: normal;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+
+/* Dashboard */
+.mails .mail-select {
+  padding: 12px 20px;
+  min-width: 134px;
+}
+.mails .checkbox {
+  margin-bottom: 0;
+  margin-top: 0;
+  vertical-align: middle;
+  display: inline-block;
+  height: 17px;
+}

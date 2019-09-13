@@ -1,0 +1,41 @@
+/* =============
+   Buttons
+============= */
+
+/* Flot chart */
+#flotTip {
+  padding: 8px 12px;
+  background-color: $dark;
+  z-index: 100;
+  color: $white;
+  opacity: 0.9;
+  font-size: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.legend tr {
+  height: 20px;
+  font-family: $font-secondary;
+}
+.legendLabel {
+  padding-left: 5px !important;
+  line-height: 10px;
+  padding-right: 10px;
+}
+
+/* Morris chart */
+.morris-hover.morris-default-style {
+  border-radius: 5px;
+  padding: 10px 12px;
+  background-color: $dark;
+  border-color: darken($dark,5%);
+
+  .morris-hover-point,.morris-hover-row-label {
+    color: $white !important;
+  }
+}
+
+.chart-detail-list li {
+  margin: 0px 10px;
+}

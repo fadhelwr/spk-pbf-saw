@@ -1,0 +1,91 @@
+/* ===========
+   Panels
+ =============*/
+
+.panel {
+  border: 2px solid $light;
+  box-shadow: none;
+  margin-bottom: 20px;
+  .panel-body {
+    padding: 20px;
+
+    p{
+      margin-bottom: 0;
+      line-height: 24px;
+    }
+
+    p + p {
+      padding-top: 10px;
+    }
+  }
+}
+
+.panel-heading {
+  border: none !important;
+  padding: 15px 20px;
+  margin: -2px;
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-default > .panel-heading {
+  background-color: $light;
+  border-bottom: none;
+  color: $muted;
+}
+
+.panel-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+  //text-transform: uppercase;
+  //letter-spacing: 0.03em;;
+}
+
+.panel-sub-title {
+  margin-bottom: 0;
+  color: rgba($white,0.7) !important;
+  margin-top: 3px;
+}
+
+.panel-footer {
+  background: $light;
+  border-top: 0;
+}
+
+.panel-default .panel-sub-title {
+  color: inherit !important;
+}
+.panel-color {
+  .panel-title {
+    color: $white;
+  }
+}
+
+.panel-custom > .panel-heading {
+  background-color: $custom;
+}
+
+.panel-primary > .panel-heading {
+  background-color: $primary;
+}
+
+.panel-success > .panel-heading {
+  background-color: $success;
+}
+
+.panel-info > .panel-heading {
+  background-color: $info;
+}
+
+.panel-warning > .panel-heading {
+  background-color: $warning;
+}
+
+.panel-danger > .panel-heading {
+  background-color: $danger;
+}
+
+.panel-dark > .panel-heading {
+  background-color: $dark;
+}

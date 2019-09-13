@@ -1,0 +1,16 @@
+@media print {
+  .topbar,.footer,.sidebar-navigation {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .panel-body {
+    padding: 40px 0 0 0;
+  }
+  #page-right-content {
+    border: 0 !important;
+    margin: 0;
+    padding: 0;
+    min-height: 1px;
+  }
+}

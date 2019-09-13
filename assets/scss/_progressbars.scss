@@ -1,0 +1,72 @@
+/* =============
+   Progressbars
+============= */
+
+
+.progress {
+  -webkit-box-shadow: none !important;
+  background-color: $light;
+  box-shadow: none !important;
+  height: 10px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  box-shadow: none;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 12px;
+}
+
+.progress.progress-sm {
+  height: 5px !important;
+  .progress-bar {
+    font-size: 8px;
+    line-height: 5px;
+  }
+}
+
+.progress.progress-md {
+  height: 15px !important;
+  .progress-bar {
+    font-size: 10.8px;
+    line-height: 14.4px;
+  }
+}
+
+.progress.progress-lg {
+  height: 20px !important;
+  .progress-bar {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.progress-bar-primary {
+  background-color: $primary;
+}
+
+.progress-bar-success {
+  background-color: $success;
+}
+
+.progress-bar-info {
+  background-color: $info;
+}
+
+.progress-bar-warning {
+  background-color: $warning;
+}
+
+.progress-bar-danger {
+  background-color: $danger;
+}
+
+.progress-bar-dark {
+  background-color: $dark;
+}
+
+.progress-bar-custom {
+  background-color: $custom;
+}

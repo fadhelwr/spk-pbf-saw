@@ -1,0 +1,42 @@
+/* Modals */
+.modal {
+  .modal-dialog {
+    .modal-content {
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      border-color: #DDDDDD;
+      border-radius: 2px;
+      box-shadow: none;
+      padding: 25px;
+      .modal-header {
+        border-bottom-width: 2px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+      }
+      .modal-body {
+        padding: 20px 0;
+      }
+      .modal-footer {
+        padding: 0;
+        padding-top: 15px;
+      }
+    }
+  }
+}
+
+.modal-full {
+  width: 98%;
+}
+
+.modal-content {
+  .nav.nav-tabs + .tab-content {
+    margin-bottom: 0px;
+  }
+  .panel-group {
+    margin-bottom: 0px;
+  }
+  .panel {
+    border-top: none;
+  }
+}
