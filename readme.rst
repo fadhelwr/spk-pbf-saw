@@ -68,3 +68,9 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+***************
+About SPK PBF SAW
+***************
+
+This project is a decision support system using the SAW (Simple Additive Weighting) method. The parameters used are the supplier of drugs that will be selected by the pharmacist when they want to supply new drug stocks
